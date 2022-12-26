@@ -436,7 +436,7 @@ const Home: NextPage = () => {
 					<LabelButton onClick={() => handleToggleHelpTextIndex(12)}>Allow Dead Ends</LabelButton>
 					<Checkbox id="allow_dead_ends" data-checked={floor_props.allow_dead_ends} onClick={(event) => handleSetFloorProps(event, !floor_props.allow_dead_ends)} />
 					<HelpText show-text={helpTextState[12]}>
-						Whether or not to allow hallways that lead to dead ends (rooms are not considered as dead ends).
+						Whether or not to allow primary connecting hallways that lead to dead ends (rooms are not considered as dead ends).
 						If this option is not checked, any hallway anchors with only one connection will attempt to be connected in a random direction to fix the dead end.
 						This process continues until all dead ends are resolved or no additional connections were able to be added.
 					</HelpText>
