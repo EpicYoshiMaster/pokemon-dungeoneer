@@ -315,6 +315,8 @@ const Home: NextPage = () => {
 					<HelpText show-text={helpTextState[0]}>
 						The type of layout to generate. 
 						Small, Medium, and Large are standard generators.
+						The Large_0x8 layout is the same as Large but disallows generating a 6x4 grid.
+						The Small layout uses only 50% of the available floor space, while Medium layout uses only 75%, with these generators both being limited to using either a 4x2 or 4x3 total grid size.
 						The Unused Generators default to a Large layout.
 						The rest are special, try them out!
 					</HelpText>

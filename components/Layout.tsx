@@ -105,7 +105,7 @@ export const Checkbox = styled.button<{ 'data-checked': boolean }>`
   background-color: ${props => props['data-checked'] ? props.theme.primary : 'transparent'};
   border: ${props => props['data-checked'] ? 'none' : `1px solid ${props.theme.input.border}`};
   border-radius: 0.25rem;
-  margiin: 0.25rem 0 0.75rem;
+  margin: 0.25rem 0 0.75rem;
   width: 1.5rem;
   height: 1.5rem;
 

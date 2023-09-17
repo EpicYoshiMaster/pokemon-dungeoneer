@@ -1,6 +1,11 @@
 import { GenerationStepLevel, GenerationType, MajorGenerationType, MinorGenerationType } from "dungeon-mystery";
 import React from "react";
-import { GenerationEvent } from "../pages";
+
+export interface GenerationEvent
+{
+  level: GenerationStepLevel;
+  type: GenerationType;
+}
 
 interface GenerationStepSelectorProps
 {
