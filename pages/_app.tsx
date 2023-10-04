@@ -1,9 +1,12 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import Link from 'next/link'
+import { DefaultSeo } from 'next-seo'
 import type { AppProps } from 'next/app'
 import styled, { ThemeProvider } from 'styled-components'
 import { THEMES } from '../components/Layout'
+
+const META_DESCRIPTION = "Generation and analysis tool for Pokémon Mystery Dungeon: Explorers of Sky's dungeon layouts.";
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
@@ -12,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<Head>
 					<title>Pokémon Dungeoneer</title>
 					<link rel="shortcut icon" href="/favicon.png" />
+					<meta charSet="UTF-8" />
 				</Head>
 
 				<Header>
@@ -21,6 +25,32 @@ export default function App({ Component, pageProps }: AppProps) {
 				</Header>
 
 				<Content>
+					<DefaultSeo 
+						description={META_DESCRIPTION}
+						canonical="https://pokemon-dungeoneer.vercel.app/"
+						title="Pokémon Dungeoneer"
+						openGraph={{
+							type: 'website',
+							locale: 'en_US',
+							url: 'https://pokemon-dungeoneer.vercel.app/',
+							site_name: 'Pokémon Dungeoneer',
+							description: META_DESCRIPTION,
+							title: 'Pokémon Dungeoneer',
+							images: [
+								{
+									url: 'https://pokemon-dungeoneer.vercel.app/dungeoneer_logo_half.png',
+									width: 1200,
+									height: 600,
+									alt: 'Chatot holding a Luminous Orb Logo',
+									type: 'image/png',
+								},
+							],
+							
+						}}
+						twitter={{
+							cardType: 'summary_large_image',
+						}}
+					/>
 					<Component {...pageProps} />
 				</Content>
 			</Layout>
