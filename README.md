@@ -8,15 +8,22 @@ Logo by [@sgtmug](https://sgtmug.carrd.co/)
 
 Try the tool for yourself at [pokemon-dungeoneer.vercel.app](https://pokemon-dungeoneer.vercel.app)!
 
+## Features
+
+- Map Generation provided by [dungeon-mystery](https://github.com/EpicYoshiMaster/dungeon-mystery), my TypeScript implementation of the Pokémon Mystery Dungeon: Explorers of Sky dungeon algorithm.
+- Generation Timeline allowing you to progress through every individual step taken to generate the floor
+- Help Text explaining the functions and purposes of every single parameter in the algorithm, as well as expected and general values.
+- Import/Export settings to save and share them
+
 ## Images
 
-[Dungeoneer Website Preview](./screenshots/DungeoneerPage.png)
+![Dungeoneer Website Preview](./screenshots/DungeoneerPage.png)
 
-[Dungeoneer Map](./screenshots/DungeoneerMap.png)
+The overall website layout.
 
-## This is cool and all... but where's the actual dungeon algorithm stuff?
+![Dungeoneer Map](./screenshots/DungeoneerMap.png)
 
-You'll want to check out [dungeon-mystery](https://github.com/EpicYoshiMaster/dungeon-mystery), my TypeScript implementation of the Pokémon Mystery Dungeon: Explorers of Sky dungeon algorithm.
+A close-up of the dungeon maps as shown in Dungeoneer.
 
 ## Big Thank You
 
