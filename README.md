@@ -4,7 +4,15 @@ Pokémon Dungeoneer is a tool for generating and analyzing the dungeons of Poké
 
 [![PokemonDungeoneer512x512](https://github.com/EpicYoshiMaster/pokemon-dungeoneer/assets/32598419/23096f3e-6e70-4398-aebd-b6bf601e68f7)](https://pokemon-dungeoneer.vercel.app/)
 
-Logo by [@sgtmug](https://twitter.com/sergeantmug)
+Logo by [@sgtmug](https://sgtmug.carrd.co/)
+
+Try the tool for yourself at [pokemon-dungeoneer.vercel.app](https://pokemon-dungeoneer.vercel.app)!
+
+## Images
+
+[Dungeoneer Website Preview](./screenshots/DungeoneerPage.png)
+
+[Dungeoneer Map](./screenshots/DungeoneerMap.png)
 
 ## This is cool and all... but where's the actual dungeon algorithm stuff?
 
